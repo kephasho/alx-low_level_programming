@@ -1,22 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - print alphabets in uppercase
  *
- * Return: 0 
+ * Description: using the main function
+ * this program prints "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+ * Return: 0
  */
 int main(void)
 {
-	char i;
-	char j;
+	char ch;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		putchar(i);
+		putchar(ch);
 	}
-	for (j = 'A'; j <= 'Z'; j++)
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
 	{
-		putchar(j);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
