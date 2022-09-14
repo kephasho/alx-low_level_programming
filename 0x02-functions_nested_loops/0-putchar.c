@@ -1,20 +1,19 @@
-#include"main.h"
-
+#include "main.h"
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char str[] = "_putchar";
-	int ch;
+	char *c = "_putchar";
 
-	for (ch = 0; ch < 8; ++ch)
+	while (*c)
 	{
-		_putchar(str[ch]);
+		_putchar(*c);
+		c++;
 	}
 	_putchar('\n');
+
 	return (0);
 }
