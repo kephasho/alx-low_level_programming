@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * mul - input
- * Description: multiplies 2 numbers
- * @a: first number
- * @b: second number
- * Return: the answer
+ * mul - gives the product of a and b
+ * @a: variable
+ * @b: variable
+ *
+ * Return: a * b
  */
 
 int mul(int a, int b)
 {
-	 return (a * b);
+return (a * b);
 }
